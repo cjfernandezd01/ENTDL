@@ -23,14 +23,14 @@ public class Ejercicio02 {
         System.out.println("Por favor, introduzca un tercer numero:");
         numero3 = entrada.nextInt();
         
-        if (numero3 > numero2) {
+        if (numero3 < numero2) {
             numero2 = numero3;
         }
         
-        if (numero2 > numero1) {
+        if (numero2 < numero1) {
             numero1 = numero2;
         }
-        System.out.println("El número mayor de los introducidos es el " + numero1);
+        System.out.println("El número menor de los introducidos es el " + numero1);
     }
     
 }
