@@ -24,7 +24,7 @@ public class Ejercicio01 {
         System.out.print("\t Dime otro número entero: ");
         num2 = entrada.nextInt();
         
-        if (num1 > 10){
+        if (num1 > 15){
             System.out.println("\t La operación que se realizó es producto y el resultado es "+num1*num2);
         }
         else{
